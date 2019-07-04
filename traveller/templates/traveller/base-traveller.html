@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %}
+
+{% block login-signup %}
+
+<div class="navbar-nav">
+	{% if user.is_authenticated %}
+	<a class="nav-item nav-link" href="{% url 'traveller-logout' %}">Logout</a>
+
+	{% else %}
+	<a class="nav-item nav-link" href="{% url 'traveller-login' %}">Login</a>
+	<a class="nav-item nav-link" href="{% url 'traveller-signup' %}">Sign Up</a>
+
+	{% endif %}
+
+
+</div>
+
+{% endblock login-signup %}
