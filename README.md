@@ -24,3 +24,10 @@ branch in the respective country would purchase the product for the customer and
 is the company’s charge where as 4% will be given to the traveller.
 5. The company will also post some popular selling products on high sales on
 the application.
+
+
+## How to Use
+
+Since this website is built on Django. You will require Python 3 with django framework installed. After making sure you have them. You can use the following command in the directory of the repo to run it.
+
+`python manage.py runserver`
